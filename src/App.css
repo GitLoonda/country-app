@@ -1,0 +1,119 @@
+header {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 10px;
+  border-bottom: 1px solid #ccc;
+  background-color: hsl(0, 0%, 98%);
+}
+
+header .btn {
+  background-color: hsl(0, 0%, 98%);
+  
+}
+
+.home {
+  background-color: hsl(0, 0%, 98%);
+}
+
+.home .list ul {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  padding: 0 20px;  
+}
+
+li .nation {
+  border: 1px solid #ccc;
+}
+
+.nation .flg {
+  background-size: cover;
+  width: 100%;
+  height: 200px;
+  border-bottom: 1px solid #ccc;
+}
+
+.nation .desc {
+  padding : 20px;
+  display: block;
+  
+}
+
+.nation .desc h3 {
+  margin: 10px 0;
+  width: 280px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.desc p {
+  text-overflow: ellipsis;
+}
+
+.search {
+  display: flex;
+  justify-content: center;
+  padding: 20px 10px;
+}
+
+.search .btn {
+  background-color: hsl(0, 0%, 98%);
+  border: 1px solid #ccc;
+  margin-left: 15px;
+}
+
+.detail {
+  padding: 20px;
+  height: 100vh;
+}
+
+.detail .btn {
+  margin-bottom: 40px;
+}
+
+.detail h2 {
+  margin-bottom: 20px;
+}
+
+.detail .content {
+  display: flex;
+  justify-content: center;
+}
+
+.content .flg {
+  background-size: cover;
+  width: 50%;
+  height: 500px;
+  border: 1px solid #ccc;
+}
+
+.content .desc {
+  width: 50%;
+  padding: 0 40px;
+}
+
+.dark {
+  background-color: black;
+  color : hsl(0, 0%, 100%);
+}
+
+.dark h1 a {
+  color: white;
+}
+
+.dark .btn {
+  background-color: black;
+  color: white;
+  border-color: white;
+}
+
+.dark .search input {
+  background-color: black;
+}
+
+.dark .nation {
+  background-color: white;
+  border-color: black;
+}
