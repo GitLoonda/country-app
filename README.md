@@ -1,5 +1,6 @@
 # country-app
 - 리액트 강의 평가
+- https://gitloonda.github.io/country-app-build/
 
 ## App.jsx
 - 라우팅 기능 구현
